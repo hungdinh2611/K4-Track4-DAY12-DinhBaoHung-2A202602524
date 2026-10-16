@@ -1,0 +1,49 @@
+{
+  "student": {
+    "student_id": "2A202602524",
+    "split_seed": 9542,
+    "model_seed": 6022,
+    "v_ego": 12.0
+  },
+  "source": "Re-evaluated saved PercMLP+ checkpoints with the original held-out windows and models.l2_summary",
+  "seeds": [
+    6022,
+    6023,
+    6024,
+    6025,
+    6026
+  ],
+  "runtime": {
+    "python": "3.10.4",
+    "numpy": "1.23.1",
+    "pandas": "2.3.3",
+    "matplotlib": "3.5.3"
+  },
+  "PercMLP+_openloop_per_seed": [
+    {
+      "all": 0.8203039765357971,
+      "brake_slice": 0.9728911519050598,
+      "slice_share": 0.044468304654600214
+    },
+    {
+      "all": 0.8112367987632751,
+      "brake_slice": 0.9914634227752686,
+      "slice_share": 0.044468304654600214
+    },
+    {
+      "all": 0.8264116644859314,
+      "brake_slice": 1.0118225812911987,
+      "slice_share": 0.044468304654600214
+    },
+    {
+      "all": 0.8051190376281738,
+      "brake_slice": 1.0011438131332397,
+      "slice_share": 0.044468304654600214
+    },
+    {
+      "all": 0.8464523553848267,
+      "brake_slice": 1.0222784280776978,
+      "slice_share": 0.044468304654600214
+    }
+  ]
+}
